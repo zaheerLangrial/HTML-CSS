@@ -132,3 +132,39 @@ button:hover {
     color: blanchedalmond;
     font-weight: bold;
 }
+
+.hotelAboutContanier{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+.divOneContainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: black;
+        font-size: 28px;
+    }
+}
+
+.divTwoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%; /* Set border radius to 50% for circle */
+}
+
+.divTwoContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ensure the image also conforms to the circle shape */
+}
