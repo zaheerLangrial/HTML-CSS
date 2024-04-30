@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us | HBT hotel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navContainer">
@@ -11,9 +12,9 @@
             <h1 class="title">HBT</h1>
         </div>
         <ul class="navButtons">
-            <li class="navButton">Home</li>
-            <li class="navButton">About</li>
-            <li class="navButton">Contact</li>
+            <li class="navButton"><a style="color: white; text-decoration: none;" href="Home.html">Home</a></li>
+            <li class="navButton"><a style="color: white; text-decoration: none;" href="About.html">About</a></li>
+            <li class="navButton"><a style="text-decoration: none;" href="ContactUs.html">Contact</a></li>
         </ul>
     </nav>
     <section class="contactUsContainer">
@@ -24,17 +25,46 @@
             Fill out form for contact us
         </p>
         <label>Name</label>
-        <input type="text">
+        <input class="contactInputs" type="text">
         <label>Email</label>
-        <input type="text">
-        <textarea rows="4" cols="50">
-            Enter your text here...
+        <input class="contactInputs" type="text">
+        <label>Message</label>
+        <textarea class="contactInputs" rows="4" cols="50">
         </textarea>
         <button>
             Submit
         </button>
     </section>
-
+    <section class="aboutHotel" style="background-color: rgb(82, 82, 82);;">
+        <div class="aboutHotelContent">
+            <img src="assests/HotelIcon.png" alt="Hotel icon" width="100" height="100">
+            <h1>
+                Location
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div>
+            <img src="assests/Callicon.png" alt="Fitness Room icon" width="100" height="100">
+            <h1>
+                Call
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div>
+            <img src="assests/freeMeals.png" alt="Free meals icon" width="100" height="100">        
+            <h1>
+                Meals
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        
+    </section>
     <footer class="footer">
         Hotel BT 2024
     </footer>
